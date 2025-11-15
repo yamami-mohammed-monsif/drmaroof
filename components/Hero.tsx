@@ -7,14 +7,18 @@ const Hero = () => {
     <Section>
       <div className="grid md:grid-cols-2 items-center">
         <div>
-          <h1>Stop Hiding. Reveal Your Signature Smile.</h1>
-          <p className="section-description">
+          <h1 className="animate-fade-in-up">
+            Stop Hiding. Reveal Your Signature Smile.
+          </h1>
+          <p className="section-description animate-fade-in-up animate-delay-100">
             Experience the art of Visagism with Dr. Maroof Beg, where your smile
             is designed to match your face, personality, and confidence. Forget
             one-size-fits-all results. discover a radiant, natural look that’s
             uniquely yours.
           </p>
-          <CTABtn className="mt-8">Book My Signature Smile Consultation</CTABtn>
+          <CTABtn className="mt-8 animate-fade-in-up animate-delay-200">
+            Book My Signature Smile Consultation
+          </CTABtn>
         </div>
       </div>
       <div className="relative -mx-5 md:mx-0 w-[calc(100%+2.5rem)] mt-20 md:mt-0 md:w-md lg:w-xl h-[380px] md:h-[80vh] lg:h-screen bg-[#F5F5F5] md:absolute top-0 right-0 -z-10">
