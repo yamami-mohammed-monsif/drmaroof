@@ -1,15 +1,21 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Gilda_Display, Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const gildadisplay = Gilda_Display({
+  variable: "--font-gilda-display",
   subsets: ["latin"],
+  display: "swap",
+  weight: ["400"],
+  preload: true,
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const sourcesans3 = Source_Sans_3({
+  variable: "--font-source-sans-3",
   subsets: ["latin"],
+  display: "swap",
+  weight: ["400", "600", "700"],
+  preload: true,
 });
 
 export const metadata: Metadata = {
@@ -24,8 +30,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* Preconnect to Google Fonts for faster loading */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${gildadisplay.variable} ${sourcesans3.variable} antialiased`}
       >
         {children}
       </body>

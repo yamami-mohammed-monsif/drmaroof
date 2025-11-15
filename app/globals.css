@@ -3,4 +3,48 @@
 @theme {
   --color-cta: #0a7e8c;
   --color-cta-hover: #085e6a;
+  --color-text: #333333;
+  --color-heading: #1a1a1a;
+
+  --font-gilda-display: "Gilda Display", serif;
+  --font-sourcesans3: "Source Sans 3", sans-serif;
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-sourcesans3);
+    color: var(--color-text);
+    position: relative;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-gilda-display);
+    color: var(--color-heading);
+  }
+
+  h1 {
+    @apply text-[2.5rem] md:text-5xl lg:text-6xl xl:text-[88px] font-normal leading-11 lg:leading-16 xl:leading-24 max-w-md md:max-w-2xl mb-5 md:mb-6 lg:mb-8;
+  }
+}
+
+.section-description {
+  @apply text-base md:text-lg font-normal leading-5 md:leading-6 text-text mt-4 md:mt-5 max-w-[500px];
 }
