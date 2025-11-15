@@ -23,7 +23,7 @@ const Hero = () => {
       </div>
       <div className="relative -mx-5 md:mx-0 w-[calc(100%+2.5rem)] mt-20 md:mt-0 md:w-md lg:w-xl h-[380px] md:h-[80vh] lg:h-screen bg-[#F5F5F5] md:absolute top-0 right-0 -z-10">
         <Image
-          src="/hero-image.png"
+          src="/hero-image.webp"
           alt="hero image"
           width={600}
           height={700}
