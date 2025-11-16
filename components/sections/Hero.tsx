@@ -1,6 +1,6 @@
-import Section from "./UI/Section";
+import Section from "../UI/Section";
 import Image from "next/image";
-import CTABtn from "./UI/CTABtn";
+import CTABtn from "../UI/CTABtn";
 
 const Hero = () => {
   return (

@@ -5,6 +5,8 @@
   --color-cta-hover: #085e6a;
   --color-text: #333333;
   --color-heading: #1a1a1a;
+  --color-bg-alt: #f8fafb;
+  --color-neutral-dark: #1a2b3c;
 
   --font-gilda-display: "Gilda Display", serif;
   --font-sourcesans3: "Source Sans 3", sans-serif;
@@ -42,6 +44,10 @@
 
   h1 {
     @apply text-[2.5rem] md:text-5xl lg:text-6xl xl:text-[88px] font-normal leading-11 lg:leading-16 xl:leading-24 max-w-md md:max-w-2xl mb-5 md:mb-6 lg:mb-8;
+  }
+
+  h2 {
+    @apply text-4xl md:text-4xl lg:text-5xl xl:text-[56px] leading-9 md:leading-10 lg:leading-14 max-w-96 md:max-w-2xl;
   }
 }
 
