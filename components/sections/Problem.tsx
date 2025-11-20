@@ -28,18 +28,17 @@ const Problem = () => {
   return (
     <Section className="lg:pt-24" ref={sectionRef}>
       <div className="grid gap-12 md:gap-16 lg:gap-20 md:grid-cols-2 items-center">
-        {/* Content Column */}
         <div className="flex flex-col gap-7 md:gap-8 lg:gap-10 order-1 md:order-2">
           <h2 className={isVisible ? "animate-fade-in-up" : "opacity-0"}>
             Tired of a Smile That Doesn't Feel Like You?
           </h2>
 
-          <div className="flex flex-col gap-5 max-w-[550px]">
+          <div className="flex flex-col gap-4 md:gap-5 max-w-[550px]">
             {problemPoints.map((point) => (
               <div
                 key={point.id}
                 className={`
-                  py-3 md:py-2 lg:py-3 pl-8 
+                  lg:py-3 pl-8 
                   hover:bg-[#f8f8f8] hover:border-l hover:border-neutral-dark
                   transition-colors duration-300
                   ${
@@ -55,7 +54,6 @@ const Problem = () => {
           </div>
         </div>
 
-        {/* Image Column */}
         <div className="order-2 md:order-1 flex justify-center">
           <Image
             src="/problem-img.webp"
