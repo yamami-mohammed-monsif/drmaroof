@@ -109,7 +109,7 @@
 /* Testimonials Swiper Buttons */
 .testimonials-swiper-button-prev,
 .testimonials-swiper-button-next {
-  @apply bg-light-gray border-[#E0E0E0] text-heading;
+  @apply bg-light-gray border border-[#E0E0E0] text-heading;
 }
 
 .testimonials-swiper-button-prev:hover,
@@ -118,6 +118,20 @@
 }
 .testimonials-swiper-button-prev:hover svg,
 .testimonials-swiper-button-next:hover svg {
+  @apply text-light-gray;
+}
+
+/* BeforeAfters Swiper Buttons */
+.beforeafters-swiper-button-prev,
+.beforeafters-swiper-button-next {
+  @apply bg-light-gray border border-[#E0E0E0] text-heading;
+}
+.beforeafters-swiper-button-prev:hover,
+.beforeafters-swiper-button-next:hover {
+  @apply bg-heading border-heading;
+}
+.beforeafters-swiper-button-prev:hover svg,
+.beforeafters-swiper-button-next:hover svg {
   @apply text-light-gray;
 }
 

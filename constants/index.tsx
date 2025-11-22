@@ -94,6 +94,21 @@ export const BeforeAfterData = [
     src: "/beforeafter3.webp",
     alt: "Before and after treatment image 3",
   },
+  {
+    id: 4,
+    src: "/beforeafter4.webp",
+    alt: "Before and after treatment image 4",
+  },
+  {
+    id: 5,
+    src: "/beforeafter5.webp",
+    alt: "Before and after treatment image 5",
+  },
+  {
+    id: 6,
+    src: "/beforeafter6.webp",
+    alt: "Before and after treatment image 6",
+  },
 ];
 
 export const BenefitsData = [
