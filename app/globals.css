@@ -7,6 +7,7 @@
   --color-heading: #1a1a1a;
   --color-bg-alt: #f8fafb;
   --color-neutral-dark: #1a2b3c;
+  --color-light-gray: #f5f5f5;
 
   --font-gilda-display: "Gilda Display", serif;
   --font-sourcesans3: "Source Sans 3", sans-serif;
@@ -58,7 +59,7 @@
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(25px);
   }
   to {
     opacity: 1;
@@ -103,4 +104,37 @@
     opacity: 1;
     transform: none;
   }
+}
+
+/* Testimonials Swiper Buttons */
+.testimonials-swiper-button-prev,
+.testimonials-swiper-button-next {
+  @apply bg-light-gray border-[#E0E0E0] text-heading;
+}
+
+.testimonials-swiper-button-prev:hover,
+.testimonials-swiper-button-next:hover {
+  @apply bg-heading border-heading;
+}
+.testimonials-swiper-button-prev:hover svg,
+.testimonials-swiper-button-next:hover svg {
+  @apply text-light-gray;
+}
+
+.swiper-pagination {
+  position: relative !important;
+}
+
+.swiper-pagination-bullet {
+  position: relative !important;
+  display: inline-block !important;
+  background-color: var(--color-neutral-dark) !important;
+  opacity: 0.3 !important;
+  width: 8px !important;
+  height: 8px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--color-heading) !important;
+  opacity: 1 !important;
 }

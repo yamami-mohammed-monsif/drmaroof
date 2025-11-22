@@ -24,43 +24,34 @@ export const NavLinks = [
 export const TestimonialsData = [
   {
     id: 1,
-    name: "Emma R.",
-    position: "Position, Company name",
-    img: "/testimonial6.webp",
+    name: "Maral Seyitmyradova",
     content:
-      "I always covered my mouth when smiling. Thanks to Dr. Sarah and Invisalign, I finally feel confident in photos again.",
+      "I had a fantastic experience with Dr. Maroof at Apex. He was incredibly professional, kind and attentive throughout the entire process. My new crown feels perfects, and he made sure I was comfortable every step of the way. I also appreciate the aftercare guidance and the extra tips for dental and gum health. Highly recommend Dr. Maroof and his team for anyone looking for excellent dental care!",
   },
   {
     id: 2,
-    name: "Eleena P.",
-    position: "Position, Company name",
-    img: "/testimonial5.webp",
+    name: "Sajid Nazir",
     content:
-      "The clinic feels more like a spa than a dentist’s office. Stress-free and so professional, I actually look forward to visits now.",
+      "Had a dental veneer repaired with Dr. Maroof. He's highly skilled and professional. I would recommend him to anyone looking for any cosmetic dental needs.",
   },
   {
     id: 3,
-    name: "Sophia K.",
-    position: "Position, Company name",
-    img: "/testimonial1.webp",
+    name: " Pernille Stroem",
     content:
-      "Whitening gave me amazing results in just one session. The team was gentle, friendly, and explained everything clearly.",
+      "Dr. Maroof Beg. He crafted my crown with minimal discomfort, which was a big deal for someone like me who doesn't exactly love dentist visits. His patience and professionalism were great - a 5-star experience!",
   },
   {
     id: 4,
-    name: "Kiara L.",
-    position: "Position, Company name",
-    img: "/testimonial4.webp",
+    name: "Maisra Kafeel",
     content:
-      "I was nervous about getting Invisalign, but Dr. Sarah made the process easy and comfortable. My smile has never looked better!",
+      "Got my teeth whitening done by Dr. Maroof and the results were amazing! He is so patient, explains every step of the process in great detail. Undoubtedly the best doctor in Dubai for any kind of cosmetic treatment. I highly recommend him!",
   },
+
   {
     id: 5,
-    name: "Olivia M.",
-    position: "Position, Company name",
-    img: "/testimonial5.webp",
+    name: "shiven taneja",
     content:
-      "From the moment I walked in, I felt cared for. The team is attentive and truly listens to your concerns. Highly recommend!",
+      "I had an amazing experience with Dr. Maroof Beg! He also sent aftercare guides and followed up with me on how i was doing. Amazing person and service. Highly recommend!",
   },
 ];
 
