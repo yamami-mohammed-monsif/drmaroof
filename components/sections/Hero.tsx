@@ -1,6 +1,7 @@
 import Section from "../UI/Section";
 import Image from "next/image";
 import CTABtn from "../UI/CTABtn";
+import { StatisticsData } from "@/constants";
 
 const Hero = () => {
   return (
@@ -19,6 +20,20 @@ const Hero = () => {
           <CTABtn className="mt-8 animate-fade-in-up animate-delay-200">
             Book My Signature Smile Consultation
           </CTABtn>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 mt-8 md:mt-10 lg:mt-12 animate-fade-in-up animate-delay-300">
+            {StatisticsData.map((stat) => {
+              return (
+                <div key={stat.id} className="flex flex-col gap-0 items-center">
+                  <span className="text-heading font-bold text-base md:text-xl">
+                    {stat.value}
+                  </span>
+                  <span className="text-text text-xs md:text-sm">
+                    {stat.label}
+                  </span>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
       <div className="relative -mx-5 md:mx-0 w-[calc(100%+2.5rem)] mt-20 md:mt-0 md:w-md lg:w-xl h-[380px] md:h-[80vh] lg:h-screen bg-[#F5F5F5] md:absolute top-0 right-0 -z-10">

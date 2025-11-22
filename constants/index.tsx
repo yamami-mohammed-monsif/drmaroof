@@ -21,6 +21,29 @@ export const NavLinks = [
   },
 ];
 
+export const StatisticsData = [
+  {
+    id: 1,
+    value: "10+",
+    label: "Advanced Certifications",
+  },
+  {
+    id: 2,
+    value: "50+",
+    label: "Smile Makeovers",
+  },
+  {
+    id: 3,
+    value: "5+",
+    label: "Years of Experience",
+  },
+  {
+    id: 4,
+    value: "1000+",
+    label: "Happy Patients",
+  },
+];
+
 export const TestimonialsData = [
   {
     id: 1,
