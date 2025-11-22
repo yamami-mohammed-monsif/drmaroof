@@ -33,12 +33,12 @@ const Problem = () => {
             Tired of a Smile That Doesn't Feel Like You?
           </h2>
 
-          <div className="flex flex-col gap-4 md:gap-5 max-w-[550px]">
+          <div className="flex flex-col gap-4 max-w-[550px]">
             {problemPoints.map((point) => (
               <div
                 key={point.id}
                 className={`
-                  lg:py-3 pl-8 
+                  lg:py-1 pl-8 
                   hover:bg-[#f8f8f8] hover:border-l hover:border-neutral-dark
                   transition-colors duration-300
                   ${
