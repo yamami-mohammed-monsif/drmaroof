@@ -7,6 +7,7 @@ import BeforeAfters from "@/components/sections/BeforeAfters";
 import Benefits from "@/components/sections/Benefits";
 import About from "@/components/sections/About";
 import FAQs from "@/components/sections/FAQs";
+import CTA from "@/components/sections/CTA";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Benefits />
       <About />
       <FAQs />
+      <CTA />
     </div>
   );
 }
