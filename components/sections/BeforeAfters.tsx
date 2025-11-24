@@ -3,6 +3,7 @@
 import Section from "../UI/Section";
 import { BeforeAfterData } from "@/constants";
 import { ArrowLeft, ArrowRight } from "lucide-react";
+import CTABtn from "../UI/CTABtn";
 import useOnScreen from "@/hooks/useOnScreen";
 import Image from "next/image";
 import { useRef, useState } from "react";
@@ -50,6 +51,10 @@ const BeforeAfters = () => {
               type: "bullets",
             }}
             breakpoints={{
+              640: {
+                slidesPerView: 1.5,
+                spaceBetween: 24,
+              },
               768: {
                 slidesPerView: 2,
                 spaceBetween: 32,
@@ -99,6 +104,9 @@ const BeforeAfters = () => {
             </div>
           </div>
         </div>
+        <CTABtn className="mt-6 md:mt-8 animate-fade-in-up animate-delay-200">
+          Book My Signature Smile Consultation
+        </CTABtn>
       </div>
     </Section>
   );
