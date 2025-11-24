@@ -43,16 +43,16 @@ const Transformation = () => {
             </p>
           </div>
         </div>
-        <div className="aspect-square w-[335px] md:w-[450px] lg:w-[500px] mx-auto">
+        <div className="w-[335px] md:w-[450px] lg:w-[600px] mx-auto">
           <Image
             src="/drmaroof-with-patient.webp"
             alt="dr maroof with patient working on smile transformation"
             width={500}
             height={500}
-            className="aspect-square w-[335px] md:w-[450px] lg:w-[500px]"
+            className="w-[335px] md:w-[450px] lg:w-[600px]"
             loading="lazy"
             quality={80}
-            sizes="(max-width: 768px) 335px, (max-width: 1024px) 450px, 500px"
+            sizes="(max-width: 768px) 335px, (max-width: 1024px) 450px, 600px"
           />
         </div>
       </div>

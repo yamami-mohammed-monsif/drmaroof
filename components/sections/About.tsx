@@ -8,8 +8,8 @@ const About = () => {
   const [sectionRef, isVisible] = useOnScreen({ threshold: 0.2 });
   return (
     <Section ref={sectionRef}>
-      <div className="flex flex-col gap-12 md:flex-row items-center md:gap-16 lg:gap-20">
-        <div className="max-w-[400px] lg:max-w-[500px] xl:max-w-[600px]">
+      <div className="flex flex-col gap-12 md:flex-row items-center md:gap-16 lg:gap-20 max-w-7xl mx-auto">
+        <div className="max-w-[400px] lg:max-w-[500px] xl:max-w-[600px] order-1 md:order-2">
           <h2 className={`${isVisible ? "animate-fade-in-up" : "opacity-0"}`}>
             Meet Dr. Maroof Beg Artist, Dentist, and Smile Designer.
           </h2>
@@ -44,16 +44,16 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="aspect-square w-[335px] md:w-[450px] lg:w-[500px] mx-auto">
+        <div className="w-[335px] md:w-[450px] lg:w-[600px] mx-auto order-2 md:order-1">
           <Image
             src="/dr.maroof.webp"
             alt="clinic interior image"
             width={500}
             height={500}
-            className="aspect-square w-[335px] md:w-[450px] lg:w-[500px]"
+            className="w-[335px] md:w-[450px] lg:w-[600px]"
             loading="lazy"
             quality={80}
-            sizes="(max-width: 768px) 335px, (max-width: 1024px) 450px, 500px"
+            sizes="(max-width: 768px) 335px, (max-width: 1024px) 450px, 600px"
           />
         </div>
       </div>

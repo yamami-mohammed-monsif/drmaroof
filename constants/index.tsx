@@ -172,3 +172,21 @@ export const FAQData = [
       "The process typically starts with a consultation and 3D assessment of your face and smile. After design approval, we prepare the teeth, take impressions, and place the veneers. Most full-mouth transformations take 4–8 weeks, depending on your plan and any preparatory work. A shorter case (2-4 teeth) could be faster.",
   },
 ];
+
+export const SocialLinks = [
+  {
+    id: 1,
+    label: "Instagram",
+    href: "https://www.instagram.com/dr.maroof/",
+  },
+  {
+    id: 2,
+    label: "Facebook",
+    href: "https://www.facebook.com/drmaroofbeg",
+  },
+  {
+    id: 3,
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/dr-maroof-beg-879a8115b/",
+  },
+];

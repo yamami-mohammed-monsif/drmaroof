@@ -45,7 +45,7 @@ const Header = () => {
             <Link href="/">
               <Image
                 src="/logo-black.svg"
-                alt="BrightSmile Dental Logo"
+                alt="Dr.Maroof Logo"
                 width={80}
                 height={80}
                 className="aspect-square w-11 md:w-14 lg:w-20"

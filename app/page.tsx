@@ -8,6 +8,7 @@ import Benefits from "@/components/sections/Benefits";
 import About from "@/components/sections/About";
 import FAQs from "@/components/sections/FAQs";
 import CTA from "@/components/sections/CTA";
+import Footer from "@/components/sections/Footer";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <About />
       <FAQs />
       <CTA />
+      <Footer />
     </div>
   );
 }

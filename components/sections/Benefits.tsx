@@ -10,7 +10,7 @@ const Benefits = () => {
   const [sectionRef, isVisible] = useOnScreen({ threshold: 0.2 });
   return (
     <Section ref={sectionRef}>
-      <div className="flex flex-col items-center gap-12 md:flex-row md:gap-16 lg:gap-20">
+      <div className="flex flex-col items-center gap-12 md:flex-row md:justify-between md:gap-16 lg:gap-20 max-w-7xl mx-auto">
         <div>
           <div>
             <h2
@@ -42,16 +42,16 @@ const Benefits = () => {
             })}
           </div>
         </div>
-        <div className="aspect-square w-[335px] md:w-[450px] lg:w-[500px] mx-auto">
+        <div className="w-[335px] md:w-[450px] lg:w-[600px] mx-auto">
           <Image
             src="/clinic-interior.webp"
             alt="clinic interior image"
             width={500}
             height={500}
-            className="aspect-square w-[335px] md:w-[450px] lg:w-[500px]"
+            className="w-[335px] md:w-[450px] lg:w-[600px] md:mr-auto"
             loading="lazy"
             quality={80}
-            sizes="(max-width: 768px) 335px, (max-width: 1024px) 450px, 500px"
+            sizes="(max-width: 768px) 335px, (max-width: 1024px) 450px, 600px"
           />
         </div>
       </div>

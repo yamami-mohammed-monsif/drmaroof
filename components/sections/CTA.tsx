@@ -25,7 +25,7 @@ const CTA = () => {
       <div
         className="absolute inset-0 
           bg-black/70 
-          md:bg-linear-to-r md:from-black/90 md:from-10% md:via-black/75 md:via-40% md:to-transparent"
+          md:bg-linear-to-r md:from-black/85 md:from-10% md:via-black/70 md:via-40% md:to-transparent"
         aria-hidden="true"
       />
       <div className="relative z-10">

@@ -60,10 +60,10 @@ const Problem = () => {
             alt="Person feeling disconnected from their smile - dental concerns illustration"
             width={500}
             height={500}
-            className="aspect-square w-[335px] md:w-[450px] lg:w-[500px]"
+            className="w-[335px] md:w-[450px] lg:w-[600px]"
             loading="lazy"
             quality={80}
-            sizes="(max-width: 768px) 335px, (max-width: 1024px) 450px, 500px"
+            sizes="(max-width: 768px) 335px, (max-width: 1024px) 450px, 600px"
           />
         </div>
       </div>
