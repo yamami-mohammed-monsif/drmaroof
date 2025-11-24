@@ -134,56 +134,41 @@ export const BenefitsData = [
   },
 ];
 
-export const Steps = [
-  {
-    id: 1,
-    title: "Book Your Free Consultation",
-    description:
-      "Choose a time that works best for you. it only takes 30 seconds.",
-  },
-  {
-    id: 2,
-    title: "Visit Our Clinic",
-    description:
-      "Come in for a warm, friendly consultation. We’ll answer your questions and design your treatment plan.",
-  },
-  {
-    id: 3,
-    title: "Start Your Smile Journey",
-    description:
-      "Begin treatment with confidence and enjoy the results that last.",
-  },
-];
-
 export const FAQData = [
   {
     id: 1,
-    question: "Does cosmetic dentistry hurt?",
+    question: "What is Visagism?",
     answer:
-      "Not at all. Modern techniques and gentle care mean most treatments are completely pain-free. Dr. Sarah always ensures you feel relaxed and comfortable",
+      "Visagism is a modern approach to smile design that blends art and science. It studies your facial features, expressions, and personality to create a smile that naturally fits you, not a generic template. It’s what makes every result unique, authentic, and in harmony with your identity.",
   },
   {
     id: 2,
-    question: "How much does it cost?",
+    question: "How long will my new smile last and how should I care for it?",
     answer:
-      "It depends on your treatment plan, but we’ll give you a clear estimate upfront. Many patients are surprised by how affordable a confident smile can be.",
+      "With professional care and good habits, high-quality veneers can last over a decade. You should continue brushing twice daily, flossing, attending regular check-ups, and avoiding using your teeth as tools or biting very hard objects.",
   },
   {
     id: 3,
-    question: "How long does treatment take?",
+    question: "Am I a good candidate for a smile makeover with Visagism?",
     answer:
-      "Some treatments (like whitening) can be done in one visit. Others, like aligners or veneers, take a few weeks to months. We’ll guide you step by step.",
+      "Most adult patients who have healthy teeth and gums, and who want a more confident, natural smile, are good candidates. During your consultation, we’ll assess your oral health, smile goals, and facial features to create a customised plan. If there are active issues like decay or gum disease, we’ll treat those first.",
   },
   {
     id: 4,
-    question: " Will my insurance cover this?",
+    question: "Does the procedure hurt or require a long recovery?",
     answer:
-      "It depends on your provider. While most cosmetic procedures aren’t fully covered, we’ll help you check your benefits and explore flexible payment options.",
+      "No. The process is designed to be comfortable. We use local anaesthetic during preparation and many patients feel little to no discomfort. Some mild sensitivity may occur afterward, but this usually resolves within days.",
   },
   {
     id: 5,
-    question: "What if I’m nervous about going to the dentist?",
+    question: "Will my smile look natural or “too perfect”?",
     answer:
-      "That’s completely normal. Dr. Sarah specializes in creating a calming experience, taking extra time to explain everything so you always feel at ease.",
+      "Yes, that’s the promise of our Visagism-based design. We align your smile with your facial structure, personality, and features so it looks and feels uniquely yours, not like a template. Colour, shape and texture are carefully matched for authenticity.",
+  },
+  {
+    id: 6,
+    question: "What is the process & how many visits will I need?",
+    answer:
+      "The process typically starts with a consultation and 3D assessment of your face and smile. After design approval, we prepare the teeth, take impressions, and place the veneers. Most full-mouth transformations take 4–8 weeks, depending on your plan and any preparatory work. A shorter case (2-4 teeth) could be faster.",
   },
 ];
