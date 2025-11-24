@@ -114,26 +114,23 @@ export const BeforeAfterData = [
 export const BenefitsData = [
   {
     id: 1,
-    title: "Boosted Confidence",
-    description:
-      "Feel proud to smile in photos, at work, and in everyday life.",
+    description: "Perfect Facial Harmony.",
   },
   {
     id: 2,
-    title: "Better First Impressions",
-    description: "Stand out in interviews, meetings, and social situations.",
+    description: "100% Natural-Looking Results.",
   },
   {
     id: 3,
-    title: "Stress-Free Visits",
-    description:
-      "Relax in our calming environment with sedation options available.",
+    description: "Reflects Your Personality.",
   },
   {
     id: 4,
-    title: "Long-Term Oral Health",
-    description:
-      "Protect your teeth and gums while improving your overall well-being.",
+    description: "Confidence That Feels Effortless.",
+  },
+  {
+    id: 5,
+    description: "Designed Right the First Time.",
   },
 ];
 
