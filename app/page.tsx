@@ -5,6 +5,7 @@ import Transformation from "@/components/sections/Transformation";
 import Testimonials from "@/components/sections/Testimonials";
 import BeforeAfters from "@/components/sections/BeforeAfters";
 import Benefits from "@/components/sections/Benefits";
+import About from "@/components/sections/About";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Testimonials />
       <BeforeAfters />
       <Benefits />
+      <About />
     </div>
   );
 }

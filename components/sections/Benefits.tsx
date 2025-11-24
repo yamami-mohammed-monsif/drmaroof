@@ -10,7 +10,7 @@ const Benefits = () => {
   const [sectionRef, isVisible] = useOnScreen({ threshold: 0.2 });
   return (
     <Section ref={sectionRef}>
-      <div className="flex flex-col gap-12 md:flex-row md:gap-16 lg:gap-20">
+      <div className="flex flex-col items-center gap-12 md:flex-row md:gap-16 lg:gap-20">
         <div>
           <div>
             <h2
@@ -31,7 +31,7 @@ const Benefits = () => {
             </p>
           </div>
           <div
-            className={`mt-5 ${
+            className={`mt-5 md:mt-8 ${
               isVisible ? "animate-fade-in-up delay-200" : "opacity-0"
             }`}
           >
