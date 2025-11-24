@@ -43,6 +43,7 @@ const BeforeAfters = () => {
               disableOnInteraction: false,
               pauseOnMouseEnter: true,
             }}
+            loop={true}
             pagination={{
               el: paginationRef.current,
               clickable: true,

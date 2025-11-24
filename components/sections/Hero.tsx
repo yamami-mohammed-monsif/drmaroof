@@ -20,7 +20,7 @@ const Hero = () => {
           <CTABtn className="mt-8 animate-fade-in-up animate-delay-200">
             Book My Signature Smile Consultation
           </CTABtn>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 mt-8 md:mt-10 lg:mt-12 animate-fade-in-up animate-delay-300">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 mt-6 md:mt-8 animate-fade-in-up animate-delay-300">
             {StatisticsData.map((stat) => {
               return (
                 <div key={stat.id} className="flex flex-col gap-0 items-center">
