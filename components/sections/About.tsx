@@ -16,7 +16,7 @@ const About = () => {
           <div className="flex flex-col gap-4 mt-5 md:mt-8">
             <p
               className={`${
-                isVisible ? "animate-fade-in-up delay-100" : "opacity-0"
+                isVisible ? "animate-fade-in-up animate-delay-100" : "opacity-0"
               }`}
             >
               With over 5 years of experience in cosmetic dentistry and
@@ -25,7 +25,7 @@ const About = () => {
             </p>
             <p
               className={`${
-                isVisible ? "animate-fade-in-up delay-200" : "opacity-0"
+                isVisible ? "animate-fade-in-up animate-delay-200" : "opacity-0"
               }`}
             >
               Dr. Maroof Beg holds a Master’s Degree in Advanced Aesthetic
@@ -34,7 +34,7 @@ const About = () => {
             </p>
             <p
               className={`${
-                isVisible ? "animate-fade-in-up delay-300" : "opacity-0"
+                isVisible ? "animate-fade-in-up animate-delay-300" : "opacity-0"
               }`}
             >
               Licensed by the Dubai Health Authority in Restorative and General

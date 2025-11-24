@@ -22,7 +22,7 @@ const Benefits = () => {
             </h2>
             <p
               className={`section-description ${
-                isVisible ? "animate-fade-in-up delay-100" : "opacity-0"
+                isVisible ? "animate-fade-in-up animate-delay-100" : "opacity-0"
               }`}
             >
               Standard dentistry uses templates. We don’t. Dr. Beg doesn’t just
@@ -32,7 +32,7 @@ const Benefits = () => {
           </div>
           <div
             className={`mt-5 md:mt-8 ${
-              isVisible ? "animate-fade-in-up delay-200" : "opacity-0"
+              isVisible ? "animate-fade-in-up animate-delay-200" : "opacity-0"
             }`}
           >
             {BenefitsData.map((benefit) => {
