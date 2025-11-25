@@ -46,6 +46,9 @@ const Hero = () => {
           priority
           fetchPriority="high"
           quality={75}
+          sizes="(max-width: 768px) 100vw, 50vw"
+          placeholder="blur"
+          blurDataURL="data:image/svg+xml;base64,..."
         />
       </div>
     </Section>

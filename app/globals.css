@@ -94,7 +94,7 @@
 @media (max-width: 768px) {
   .animate-fade-in,
   .animate-fade-in-up {
-    animation-duration: 0.4s; /* Faster on mobile */
+    animation-duration: 0.3s; /* Faster on mobile */
   }
 }
 

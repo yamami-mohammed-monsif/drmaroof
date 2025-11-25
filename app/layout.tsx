@@ -8,7 +8,8 @@ const gildadisplay = Gilda_Display({
   display: "swap",
   weight: ["400"],
   preload: true,
-  fallback: ["serif"],
+  fallback: ["Georgia", "serif"],
+  adjustFontFallback: true, // Add this
 });
 
 const sourcesans3 = Source_Sans_3({
@@ -17,7 +18,8 @@ const sourcesans3 = Source_Sans_3({
   display: "swap",
   weight: ["400", "600"],
   preload: true,
-  fallback: ["sans-serif"],
+  fallback: ["system-ui", "sans-serif"],
+  adjustFontFallback: true, // Add this
 });
 
 export const metadata: Metadata = {
