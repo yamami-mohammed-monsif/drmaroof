@@ -54,6 +54,7 @@ const About = () => {
             loading="lazy"
             quality={80}
             sizes="(max-width: 768px) 335px, (max-width: 1024px) 450px, 600px"
+            priority={false}
           />
         </div>
       </div>
