@@ -45,10 +45,10 @@ const Hero = () => {
           className="w-[300px] md:w-[350px] lg:w-[420px] xl:w-[85%] h-auto absolute bottom-0 left-1/2 -translate-x-1/2 md:translate-0 md:left-12 md:bottom-0 xl:-left-30"
           priority
           fetchPriority="high"
-          quality={75}
+          quality={85}
           sizes="(max-width: 768px) 100vw, 50vw"
           placeholder="blur"
-          blurDataURL="data:image/svg+xml;base64,..."
+          blurDataURL="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjcwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjRjVGNUY1Ii8+PC9zdmc+"
         />
       </div>
     </Section>
