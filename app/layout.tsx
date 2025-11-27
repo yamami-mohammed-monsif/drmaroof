@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Gilda_Display, Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 
@@ -9,7 +9,7 @@ const gildadisplay = Gilda_Display({
   weight: ["400"],
   preload: true,
   fallback: ["Georgia", "serif"],
-  adjustFontFallback: true, // Add this
+  adjustFontFallback: true,
 });
 
 const sourcesans3 = Source_Sans_3({
@@ -19,9 +19,10 @@ const sourcesans3 = Source_Sans_3({
   weight: ["400", "600"],
   preload: true,
   fallback: ["system-ui", "sans-serif"],
-  adjustFontFallback: true, // Add this
+  adjustFontFallback: true,
 });
 
+// Metadata export now only contains SEO/Content-related tags
 export const metadata: Metadata = {
   title: "Transform Your Smile | Dr. Maroof Beg Dental Visagism",
   description:
@@ -29,7 +30,12 @@ export const metadata: Metadata = {
   keywords:
     "cosmetic dentistry, smile makeover, dental veneers, Invisalign, teeth whitening",
   authors: [{ name: "Dr. Maroof Beg" }],
-  viewport: "width=device-width, initial-scale=1",
+};
+
+// Viewport export contains device/browser configuration tags
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
   themeColor: "#0a7e8c",
 };
 
