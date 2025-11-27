@@ -50,7 +50,7 @@
   }
 
   h2 {
-    @apply text-4xl md:text-4xl lg:text-5xl xl:text-[56px] leading-9 md:leading-10 lg:leading-14 max-w-96 md:max-w-2xl;
+    @apply text-4xl md:text-4xl lg:text-5xl xl:text-[56px] leading-10 md:leading-10 lg:leading-14 max-w-96 md:max-w-2xl;
   }
 }
 
