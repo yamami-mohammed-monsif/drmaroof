@@ -51,8 +51,8 @@ const Transformation = () => {
             height={500}
             className="w-[335px] md:w-[450px] lg:w-[600px]"
             loading="lazy"
-            quality={80}
-            sizes="(max-width: 768px) 335px, (max-width: 1024px) 450px, 600px"
+            quality={75}
+            sizes="(max-width: 767px) 335px, (max-width: 1023px) 450px, 600px"
             priority={false}
           />
         </div>
