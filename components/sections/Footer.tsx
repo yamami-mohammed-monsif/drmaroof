@@ -31,7 +31,9 @@ const Footer = () => {
         <ul className="flex flex-col gap-3">
           {SocialLinks.map((link) => (
             <li key={link.id} className="hover:underline">
-              <Link href={link.href}>{link.label}</Link>
+              <Link href={link.href} target="_blank">
+                {link.label}
+              </Link>
             </li>
           ))}
         </ul>
@@ -52,10 +54,18 @@ const Footer = () => {
       </div>
       <div className="mt-12 md:mt-16 lg:mt-20 flex flex-col gap-8 md:flex-row justify-center">
         <div className="flex flex-col gap-3 md:flex-row order-1 md:order-2">
-          <Link href="/" className="underline">
+          <Link
+            href="https://www.termsfeed.com/live/51a6fa16-e19b-4cb1-be78-47ced12f4681"
+            target="_blank"
+            className="underline"
+          >
             Privacy Policy
           </Link>
-          <Link href="/" className="underline">
+          <Link
+            href="https://www.termsfeed.com/live/f68df79b-35f0-4f92-ad39-6de0b2bcd425"
+            target="_blank"
+            className="underline"
+          >
             Terms of Service
           </Link>
         </div>

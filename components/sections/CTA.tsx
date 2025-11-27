@@ -10,6 +10,7 @@ const CTA = () => {
   return (
     <Section
       ref={sectionRef}
+      id="contact"
       className="relative w-full overflow-hidden bg-gray-900 md:py-16 lg:py-[100px]"
     >
       <div className="absolute inset-0 w-full h-full">

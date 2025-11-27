@@ -7,17 +7,17 @@ export const NavLinks = [
   {
     id: 2,
     label: "About",
-    href: "/about",
+    href: "#about",
   },
   {
     id: 3,
     label: "Testimonials",
-    href: "/testimonials",
+    href: "#testimonials",
   },
   {
     id: 4,
     label: "Contact",
-    href: "/contact",
+    href: "#contact",
   },
 ];
 
@@ -177,16 +177,21 @@ export const SocialLinks = [
   {
     id: 1,
     label: "Instagram",
-    href: "https://www.instagram.com/dr.maroof/",
+    href: "https://www.instagram.com/dr.maroofbeg/",
   },
   {
     id: 2,
     label: "Facebook",
-    href: "https://www.facebook.com/drmaroofbeg",
+    href: "https://www.facebook.com/profile.php?id=61558695621857",
   },
   {
     id: 3,
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/dr-maroof-beg-879a8115b/",
+    href: "https://www.linkedin.com/in/drmaroofbeg/",
+  },
+  {
+    id: 4,
+    label: "Maps",
+    href: "https://maps.app.goo.gl/AY1mbdnnCy2MdPYY9",
   },
 ];

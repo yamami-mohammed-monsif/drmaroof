@@ -22,7 +22,7 @@ const Testimonials = () => {
   const [sectionRef, isVisible] = useOnScreen({ threshold: 0.2 });
 
   return (
-    <Section ref={sectionRef} className="overflow-hidden">
+    <Section ref={sectionRef} id="testimonials" className="overflow-hidden">
       <div className="flex flex-col md:flex-row gap-8 md:gap-12 lg:gap-16">
         <div className="md:w-[300px] lg:w-md shrink-0">
           <h2 className={`${isVisible ? "animate-fade-in-up" : "opacity-0"}`}>
