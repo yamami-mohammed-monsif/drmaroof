@@ -71,6 +71,7 @@ const Footer = () => {
         </div>
         <p>Copyright © 2025 | Dr. Maroof Beg</p>
       </div>
+      <div className="w-full h-8 md:hidden"></div>
     </Section>
   );
 };
