@@ -33,7 +33,7 @@ const StickyCTA = () => {
         className="
           flex items-center justify-center gap-2
           w-full bg-cta text-white font-semibold
-          px-8 py-3 shadow-2xl
+          px-8 py-4 shadow-2xl
           hover:bg-cta-hover transition-colors duration-300
         "
       >
