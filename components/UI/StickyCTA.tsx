@@ -29,7 +29,7 @@ const StickyCTA = () => {
       style={{ paddingBottom: "env(safe-area-inset-bottom)" }}
     >
       <Link
-        href=""
+        href="https://wa.me/971523005493?text=Hello,%20I%20would%20like%20to%20book%20the%20Free%20Consultation."
         className="
           flex items-center justify-center gap-2
           w-full bg-cta text-white font-semibold
