@@ -10,6 +10,7 @@ const nextConfig: NextConfig = {
   // Enable experimental optimizations
   experimental: {
     optimizePackageImports: ["lucide-react"],
+    inlineCss: true,
   },
 };
 
