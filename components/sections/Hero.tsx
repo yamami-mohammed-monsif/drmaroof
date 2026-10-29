@@ -14,7 +14,7 @@ const Hero = () => {
           <p className="section-description animate-fade-in-up animate-delay-100">
             Experience the art of Visagism with Dr. Maroof Beg, where your smile
             is designed to match your face, personality, and confidence. Forget
-            one-size-fits-all results. discover a radiant, natural look that’s
+            one-size-fits-all results. Discover a radiant, natural look that’s
             uniquely yours.
           </p>
           <CTABtn className="mt-8 animate-fade-in-up animate-delay-200">

@@ -16,7 +16,7 @@ const Transformation = () => {
                 isVisible ? "animate-fade-in-up" : "opacity-0"
               }`}
             >
-              Your Transformation:Where Art Meets Science
+              Your Transformation: Where Art Meets Science
             </h2>
             <p
               className={`section-description ${
