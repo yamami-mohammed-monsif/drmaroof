@@ -47,13 +47,12 @@ const Transformation = () => {
           <Image
             src="/drmaroof-with-patient.webp"
             alt="dr maroof with patient working on smile transformation"
-            width={500}
-            height={500}
-            className="w-[335px] md:w-[450px] lg:w-[600px]"
+            width={335}
+            height={335}
+            className="w-full h-auto"
             loading="lazy"
-            quality={75}
+            quality={65}
             sizes="(max-width: 767px) 335px, (max-width: 1023px) 450px, 600px"
-            priority={false}
           />
         </div>
       </div>
